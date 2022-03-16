@@ -6,6 +6,21 @@ Implemented Nxt Trendz application which is a clone for ECommerce applications l
 - Authenticating and authorizing users by taking username, password and doing login POST HTTP API Call and implementing filters by sending them as query parameters to product api calls.
 - Persisted user login state by keeping jwt token in local storage, Sending it in headers of further api calls to authorize the user.
 
+### Login Credentials
+- Prime User credentials
+
+  ```text
+   username: rahul
+   password: rahul@2021
+  ```
+
+- Non-Prime User credentials
+
+  ```text
+   username: raja
+   password: raja@2021
+  ```
+
 ### Technologies used
 
 <details>
@@ -27,7 +42,6 @@ Implemented Nxt Trendz application which is a clone for ECommerce applications l
 - Start up the app using `npm start`
 </details>
 
-
 ### Design Files
 
 <details>
@@ -38,26 +52,5 @@ Implemented Nxt Trendz application which is a clone for ECommerce applications l
 
 </details>
 
-### Important Note
 
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-- Prime User credentials
-
-  ```text
-   username: rahul
-   password: rahul@2021
-  ```
-
-- Non-Prime User credentials
-
-  ```text
-   username: raja
-   password: raja@2021
-  ```
-
-</details>
 
